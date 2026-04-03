@@ -1,0 +1,88 @@
+# =========================
+# Node / Bun dependencies
+# =========================
+node_modules/
+bun.lockb
+.pnp/
+.pnp.js
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+coverage/
+.next/
+.out/
+.vercel/
+.cache/
+target/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Expo / React Native
+# =========================
+.expo/
+.expo-shared/
+android/
+ios/
+
+# =========================
+# Vite
+# =========================
+vite.svg
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Misc
+# =========================
+*.pem
+*.key
+
+# =========================
+# Project-specific
+# =========================
+vars.txt
+
+# Ignore nested gitignores (optional)
+# (keep them if you want per-project control)
+# backend/.gitignore
+# web/.gitignore
+# mobile/.gitignore
